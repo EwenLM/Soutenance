@@ -64,3 +64,12 @@ function randomArrayOfIntFromInterval (n, min, max) { // min and max included
     return (tab);
 }
 
+function displayArray2 (obj) {
+    let out = "Conjoncture de Syranuse avec le nombre "+ currentNumber+":\n\n";
+    for (let i in obj) {
+        
+        out += " " + eval(parseInt(i)+1) + " ->  " + obj[i] + "\n";
+    }
+
+    alert(out);
+}
